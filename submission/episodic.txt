@@ -1,0 +1,19 @@
+ Container vinuni-lab17-zep-memory-redis-1 Running 
+ Container vinuni-lab17-zep-memory-qdrant-1 Running 
+ Container vinuni-lab17-zep-memory-redis-1 Waiting 
+ Container vinuni-lab17-zep-memory-redis-1 Healthy 
+ Container vinuni-lab17-zep-memory-app-run-1256522c2af4 Creating 
+ Container vinuni-lab17-zep-memory-app-run-1256522c2af4 Created 
+E04 episodic: Lan truoc Minh fix async HTTP timeout bang cach nao?
+  PASS  395.3 ms
+E05 episodic: Reflection cua su co async la gi, tang timeout co phai root fix 
+khong?
+  PASS  256.2 ms
+           Benchmark summary           
+┏━━━━━━┳━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━┓
+┃ Case ┃ Layer    ┃ Pass ┃ Latency ms ┃
+┡━━━━━━╇━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━┩
+│ E04  │ episodic │ yes  │      395.3 │
+│ E05  │ episodic │ yes  │      256.2 │
+└──────┴──────────┴──────┴────────────┘
+Reports: /workspace/reports/benchmark.json | /workspace/reports/benchmark.md

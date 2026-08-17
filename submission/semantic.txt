@@ -1,0 +1,18 @@
+ Container vinuni-lab17-zep-memory-redis-1 Running 
+ Container vinuni-lab17-zep-memory-qdrant-1 Running 
+ Container vinuni-lab17-zep-memory-redis-1 Waiting 
+ Container vinuni-lab17-zep-memory-redis-1 Healthy 
+ Container vinuni-lab17-zep-memory-app-run-f4c5954d113e Creating 
+ Container vinuni-lab17-zep-memory-app-run-f4c5954d113e Created 
+E06 semantic: Quy tac retry POST payment la gi?
+  PASS  571.3 ms
+E11 semantic: Theo incident playbook, truoc khi tang timeout can kiem tra gi?
+  PASS  244.1 ms
+           Benchmark summary           
+┏━━━━━━┳━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━┓
+┃ Case ┃ Layer    ┃ Pass ┃ Latency ms ┃
+┡━━━━━━╇━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━┩
+│ E06  │ semantic │ yes  │      571.3 │
+│ E11  │ semantic │ yes  │      244.1 │
+└──────┴──────────┴──────┴────────────┘
+Reports: /workspace/reports/benchmark.json | /workspace/reports/benchmark.md

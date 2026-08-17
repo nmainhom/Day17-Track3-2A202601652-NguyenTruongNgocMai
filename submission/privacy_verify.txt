@@ -1,0 +1,9 @@
+ Container vinuni-lab17-zep-memory-redis-1 Running 
+ Container vinuni-lab17-zep-memory-qdrant-1 Running 
+ Container vinuni-lab17-zep-memory-redis-1 Waiting 
+ Container vinuni-lab17-zep-memory-redis-1 Healthy 
+ Container vinuni-lab17-zep-memory-app-run-3ef61be2336a Creating 
+ Container vinuni-lab17-zep-memory-app-run-3ef61be2336a Created 
+Zep user absent: True
+Redis user keys remaining: 0
+Shared semantic KB remains intact because it stores domain knowledge, not user PII.
